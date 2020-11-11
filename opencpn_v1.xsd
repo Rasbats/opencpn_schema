@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created with Liquid Studio 2020 (https://www.liquid-technologies.com)-->
+<xsd:schema xmlns="127.0.0.1:8887" elementFormDefault="qualified" targetNamespace="127.0.0.1:8887" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="viz" type="xsd:boolean" />
+    <xsd:element name="radius" type="xsd:double" />
+    <xsd:element name="auto_name" type="xsd:boolean"/>
+    <xsd:simpleType name="viz">
+        <xsd:restriction base="xsd:boolean" />
+    </xsd:simpleType>
+    <xsd:simpleType name="radius">
+        <xsd:restriction base="xsd:double" />
+    </xsd:simpleType>
+    <xsd:simpleType name="auto_name">
+        <xsd:restriction base="xsd:boolean" />
+    </xsd:simpleType>
+</xsd:schema>

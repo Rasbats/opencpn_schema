@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gpx version="1.1" creator="Rasbats" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd  127.0.0.1:8887 file:///C:/Users/Mike/Documents/My%20Schema/opencpn_v1.xsd" xmlns:opencpn="127.0.0.1:8887">
+    <rte>
+        <name>myRoute</name>        
+        <rtept lat="50.0" lon="-4.0">
+            <extensions>
+                <opencpn:viz>1</opencpn:viz>
+                <opencpn:radius>0.0</opencpn:radius>
+                <opencpn:auto_name>0</opencpn:auto_name>
+            </extensions>
+        </rtept>
+        <rtept lat="50.3" lon="-4.2">
+            <extensions>
+                <opencpn:viz>1</opencpn:viz>
+                <opencpn:radius>0.0</opencpn:radius>
+                <opencpn:auto_name>0</opencpn:auto_name>
+            </extensions>
+        </rtept>
+    </rte>
+</gpx>
